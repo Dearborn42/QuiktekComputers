@@ -33,8 +33,45 @@
     border: 0px solid;
 }
 
-#test{
-    height: 50vh;
-    width: 100%;
-    background-color: red;
+
+
+
+.computer-repair, 
+.virus-removal, 
+.laptop-repair{
+    /* width: 90vw;
+    height: 55vh; 
+    margin-left: 5vw;
+    border: 2px solid black; */
+}
+
+.black-space{
+    width: 35vw;
+    height: 55vh;
+    background-color: #2B2B2B;
+    margin-left: 5vw;
+}
+
+.laptop-repair > .black-space{
+    margin-left: 55vw;
+}
+
+.black-right-triangle{
+    position: absolute;
+    border-top: 55.1vh solid transparent;
+    border-left: 15vw solid #2B2B2B;
+    border-bottom: 0px solid transparent;
+    border-right: 0px solid transparent;
+    margin-left: 40vw;
+    margin-top: -55vh;
+}
+
+.black-left-triangle {
+    position: absolute;
+    border-top: 55.1vh solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right:15vw solid #2B2B2B;
+    margin-left: 40vw;
+    margin-top: -55vh;
 }
