@@ -1,35 +1,34 @@
 let compLength = 0;
 let lapLength = 0;
 let virLength = 0;
-let max = 1156;
+let max = 90;
 
 var computer = document.querySelector(".computer-repair");
-let cCheck = false;
 var laptop = document.querySelector(".laptop-repair");
-let lCheck = false;
 var virus = document.querySelector(".virus-removal");
-let vCheck = false;
+let cCheck, lCheck, vCheck = false;
 
 function compAnimate() {
-    if(compLength < max) {
-        computer.style.width = `${compLength}px`;
-        compLength+=2;
+    if(compLength <= max) {
+        console.log(max);
+        computer.style.width = `${compLength}vw`;
+        compLength+=.5;
         setTimeout(compAnimate, 5);
     }
 }
 
 function lapAnimate() {
-    if(lapLength < max) {
-        laptop.style.width = `${lapLength}px`;
-        lapLength+=2;
-        setTimeout(lapAnimate, 10);
+    if(lapLength <= max) {
+        laptop.style.width = `${lapLength}vw`;
+        lapLength+=.5;
+        setTimeout(lapAnimate, 5);
     }
 }
 
 function virAnimate() {
-    if(virLength < max) {
-        virus.style.width = `${virLength}px`;
-        virLength+=2;
+    if(virLength <= max) {
+        virus.style.width = `${virLength}vw`;
+        virLength+=.5;
         setTimeout(virAnimate, 5);
     }
 }
