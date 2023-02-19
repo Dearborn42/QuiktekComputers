@@ -41,7 +41,6 @@
 .laptop-repair.hover{
     width: 0vw;
     height: 55vh; 
-    border: 2px solid black;
     background-image: url(image-container.png);
 }
 .computer-repair,
