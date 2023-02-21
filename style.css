@@ -25,6 +25,7 @@
     border-right: 0px solid transparent;
     margin-top: 25%;
     margin-left: 28.3%;
+    
 }
 
 .buttons{
@@ -42,11 +43,13 @@
     width: 0vw;
     height: 55vh; 
     background-image: url(image-container.png);
+    /* border: 5px solid transparent;
+    border-image: linear-gradient(to right, #008080, #7800C6) 1; */
 }
 .computer-repair,
 .virus-removal,
 .laptop-repair {
-    margin-left:5vw ;
+    margin-left:5vw;
 }
 
 .black-space{
