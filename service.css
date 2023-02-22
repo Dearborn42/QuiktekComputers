@@ -1,31 +1,17 @@
 .info{
-    width: 70vw;
-    height: 50vh;
-    margin-left: 15vw;
-    background-color: #2B2B2B;
-    margin-top: 13%;
     transition: all 2s;
-}
-
-.right{
-    display:none;
-}
-
-.right.hover{
-    display: block;
-    width: 40vw;
-    height: 32vw;
-    background-color:#2B2B2B;
-    z-index: 2;
-}
-.info.hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 90vw;
-    height: 70vw;
-    margin-left: 5vw;
+    width: 70vw;
+    height: 50vw;
+    margin-left:   15vw;
     margin-top: 13%;
-    background-color: none;
-    z-index: 1;
+}
+
+.right{
+    display: block;
+        width: 30vw;
+        height: 22vw;
+        background-color: #2B2B2B;
 }
