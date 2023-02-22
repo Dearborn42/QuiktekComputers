@@ -10,7 +10,6 @@ let cCheck, lCheck, vCheck = false;
 
 function compAnimate() {
     if(compLength <= max) {
-        console.log(max);
         computer.style.width = `${compLength}vw`;
         compLength+=.5;
         setTimeout(compAnimate, 5);
