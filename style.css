@@ -8,7 +8,7 @@
     background-color: #2B2B2B;
     color:white;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 27.2%;
     margin-left: 1%;
     height: 50vh;
     width: 27vw;
@@ -23,7 +23,7 @@
     border-left: 15vw solid #2B2B2B;
     border-bottom: 0px solid transparent;
     border-right: 0px solid transparent;
-    margin-top: 25%;
+    margin-top: 27.2%;
     margin-left: 28.3%;
     
 }
@@ -80,4 +80,7 @@
     border-right:15vw solid #2B2B2B;
     margin-left: 40.3vw;
     margin-top: -55vh;
+}
+body{
+    background-color: black;
 }
