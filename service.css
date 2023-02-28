@@ -1,17 +1,17 @@
+
 .info{
-    transition: all 2s;
+    display: block;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70vw;
     height: 50vw;
-    margin-left:   15vw;
+    margin-left: 15vw;
     margin-top: 13%;
+    flex-wrap: wrap;
 }
-
-.right{
+.right {
     display: block;
-        width: 30vw;
-        height: 22vw;
-        background-color: #2B2B2B;
+    width: 30vw;
+    height: 22vw;
+    background-color: #2B2B2B;
 }
