@@ -1,44 +1,30 @@
-@import "../utils/size.scss";
 
-$main-color: #2B2B2B;
-$secondary-color: #7800C6;
-$text-color: white;
-
+$main-color: #7800C6;
+$secondary-color: #2B2B2B;
 nav{
-    .header-top {
+    .header-top{
         overflow: hidden;
-        background-color: $secondary-color;
+        background-color: $main-color;
         position: fixed;
+        width: 100%;
         top: 0px;
         z-index: 5;
-        @include size(100%, 30px);
-
-        p {
+        height: 30px;
+        p{
             color: white;
             text-align: center;
             margin-top: 5px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     }
-
-
-    .header{
+    .header-body{
         overflow: hidden;
-        background-color: $main-color;
+        background-color: $secondary-color;
         position: fixed;
         width: 100%;
         top: 0px;
         z-index: 3;
-        box-shadow: 0px 0px 10px $secondary-color;
-
-        .logo {
-            margin{
-                top:20px;
-                bottom: -15px;
-            }
-            @include size(260px, 90px);
-        }
-
+        box-shadow: 0px 0px 10px $main-color;
         a {
             float: left;
             color: white;
@@ -49,42 +35,44 @@ nav{
             line-height: 25px;
             border-radius: 5px;
         }
-
-        .header-right{
-            float: right;
-            margin{
-                top: 55px;
-                right: 20px;
+    }
+    .header-tags{
+        float: right;
+        margin-top: 55px;
+        margin-right: 20px;
+        font-weight: lighter;
+        a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: {
+                top: 12px;
+                bottom: 12px;
+                left: 5px;
+                right: 5px;
             }
-            font-weight: lighter;
-
-            a {
-                float: left;
-                color: white;
-                text-align: center;
-                padding{
-                    top: 12px;
-                    bottom: 12px;
-                    left: 5px;
-                    right: 5px;
-                }
-                text-decoration: none;
-                font-size: 18px;
-                line-height: 25px;
-                border-radius: 5px;
-                width: 100px;
-                margin-bottom: -10px;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            }
-            a:hover {
-                background-color: #343434;
-                font-weight: bolder;
-                transition: 0.6s;
-                font-size: 21px;
-                border-style: solid;
-                border-width: 2px;
-                border-image: linear-gradient(to right, #008080, $secondary-color) 1;
-            }
+            text-decoration: none;
+            font-size: 18px;
+            line-height: 25px;
+            border-radius: 5px;
+            width: 100px;
+            margin-bottom: -10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
+        a:hover {
+            background-color: #343434;
+            font-weight: bolder;
+            transition: 0.6s;
+            font-size: 21px;
+            border-style: solid;
+            border-width: 2px;
+            border-image: linear-gradient(to right, #008080, $main-color) 1;
+        }
+    }
+    .logo {
+        margin-top: 20px;
+        margin-bottom: -15px;
+        width: 260px;
+        height: 90px;
     }
 }
