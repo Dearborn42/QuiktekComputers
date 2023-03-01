@@ -2,7 +2,7 @@
 
 .image-container{
     @include size(100%, 100vh);
-    background-image: url("../../images/image-container.jpg");
+    background-image: url("../../image-container.jpg");
 
     .opening{
         @include size(27vw, 50vh);
@@ -51,12 +51,10 @@
     .rightTriangle{
         position: absolute;
         @include size(0, 0);
-        border{
-            top: 50vh solid transparent;
-            left: 15vw solid #2B2B2B;
-            bottom: 0px solid transparent;
-            right: 0px solid transparent;
-        }
+        border-top: 50vh solid transparent;
+        border-left: 15vw solid #2B2B2B;
+        border-bottom: 0px solid transparent;
+        border-right: 0px solid transparent;
         margin-top: 27.2%;
         margin-left: 28%;
     }
@@ -64,24 +62,20 @@
 
 .black-right-triangle {
     position: absolute;
-    border{
-        top: 55.1vh solid transparent;
-        left: 15vw solid #2B2B2B;
-        bottom: 0px solid transparent;
-        right: 0px solid transparent;
-    }
+    border-top: 55.1vh solid transparent;
+    border-left: 15vw solid #2B2B2B;
+    border-bottom: 0px solid transparent;
+    border-right: 0px solid transparent;
     margin-left: 35vw;
     margin-top: -55vh;
 
 }
 .black-left-triangle{
     position: absolute;
-    border{
-        top: 55.1vh solid transparent;
-        left: 0px solid transparent;
-        bottom: 0px solid transparent;
-        right: 15vw solid #2B2B2B;
-    }
+    border-top: 55.1vh solid transparent;
+    border-left: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 15vw solid #2B2B2B;
     margin-left: 40.3vw;
     margin-top: -55vh;
 }
@@ -102,6 +96,6 @@
 
 .computer-repair.hover, .laptop-repair.hover, .virus-removal.hover{
     @include size(0vw, 55vh);
-    background-image: url('../../images/image-container.jpg');
+    background-image: url("../../image-container.jpg");
 }
 

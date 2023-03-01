@@ -1,27 +1,26 @@
+@import "../utils/size.scss";
 
 .info{
     transition: all 2s ease;
     display: flex;
     justify-content: center;
-    width: 70vw;
-    height: 50vh;
+    @include size(70vw, 50vh);
     margin-left: 15vw;
     flex-wrap: wrap;
 }
+
 .info-bottom{
-    margin-top: -50vh;
-    transition: all 2s ease;
-    display: flex;
-    justify-content: center;
-    width: 70vw;
-    height: 45vh;
-    margin-left: 15vw;
+    @extend .info;
     margin-bottom: 20vh;
+    margin-top: -50vh;
+    .h1{
+        margin-top: 15vh;
+    }
 }
-.right {
+
+.right{
     display: block;
-    width: 30vw;
-    height: 45vh;
+    @include size(30vw, 45vh);
     background-color: #2B2B2B;
     color: white;
     text-align: center;
@@ -31,14 +30,7 @@
     display: none;
     transition: all 2s;
 }
-.h1{
-    margin-top: 15vh;
-}
 
-.info.hover{
-    height: 25vh;
-    justify-content: space-between;
-}
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -48,21 +40,21 @@
         opacity: 1;
     }
 }
-.info-bottom.hover{
+
+.info.hover {
+    height: 25vh;
+    justify-content: space-between;
+}
+.info-bottom.hover {
     height: 25vh;
     margin-top: 30vh;
 }
 
-.hidden.hover{
-    display:inline-block;
+.hidden.hover {
+    display: inline-block;
     animation: fadeIn 5s;
 }
 
-.h1.hover{
+.h1.hover {
     display: none;
-}
-
-body{
-    padding-top: 13%;
-    background-color: black;
 }
