@@ -48,6 +48,7 @@
 .info-bottom.hover {
     height: 25vh;
     margin-top: 30vh;
+    justify-content: center;
 }
 
 .hidden.hover {
@@ -57,4 +58,8 @@
 
 .h1.hover {
     display: none;
+}
+
+body{
+    padding-top: 20%;
 }
