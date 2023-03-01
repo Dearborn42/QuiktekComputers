@@ -1,7 +1,7 @@
 .image-container{
     width: 100%;
     height: 100vh;
-    background-image: url(image-container.png);
+    background-image: url(image-container.jpg);
 }
 
 .opening{
@@ -14,7 +14,23 @@
     width: 27vw;
     text-align : center;
 }
-
+.opening h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.opening h3{
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.startInfo{
+    margin-left: 8%;
+    text-align: left;
+    font-weight: lighter;
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
 .rightTriangle{
     position: absolute;
     width: 0;
@@ -24,16 +40,27 @@
     border-bottom: 0px solid transparent;
     border-right: 0px solid transparent;
     margin-top: 27.2%;
-    margin-left: 28.3%;
+    margin-left: 28%;
     
 }
 
 .buttons{
-    background-color: #7800C6;
-    color: white;
-    border: 0px solid;
+    background: linear-gradient(to right,rgb(214, 14, 225), rgb(98, 14, 141)) padding-box,
+            linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+        border-radius: 1em;
+        border: 5px solid transparent;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        width: 200px;
+        height: 50px;
 }
-
+.learn{
+    text-align: left;
+    margin-left: 6%;
+    margin-top: 10%;
+}
 
 
 
@@ -42,7 +69,7 @@
 .laptop-repair.hover{
     width: 0vw;
     height: 55vh; 
-    background-image: url(image-container.png);
+    background-image: url(image-container.jpg);
     /* border: 5px solid transparent;
     border-image: linear-gradient(to right, #008080, #7800C6) 1; */
 }
