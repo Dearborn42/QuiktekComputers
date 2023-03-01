@@ -40,7 +40,7 @@
     border-bottom: 0px solid transparent;
     border-right: 0px solid transparent;
     margin-top: 27.2%;
-    margin-left: 28.3%;
+    margin-left: 28%;
     
 }
 
@@ -69,7 +69,7 @@
 .laptop-repair.hover{
     width: 0vw;
     height: 55vh; 
-    background-image: url(image-container.png);
+    background-image: url(image-container.jpg);
     /* border: 5px solid transparent;
     border-image: linear-gradient(to right, #008080, #7800C6) 1; */
 }
