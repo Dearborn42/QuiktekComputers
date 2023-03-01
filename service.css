@@ -7,7 +7,6 @@
     width: 70vw;
     height: 22vw;
     margin-left: 15vw;
-    margin-top: 13%;
     flex-wrap: wrap;
 }
 .info-bottom{
@@ -62,4 +61,9 @@
 
 .h1.hover{
     display: none;
+}
+
+body{
+    padding-top: 13%;
+    background-color: black;
 }
