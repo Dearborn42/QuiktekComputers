@@ -1,68 +1,65 @@
 @import "../utils/size.scss";
 #mainContainer {
-    height: 90vh;
-    margin-top: 13%;
-    text-align: center;
+    height: 70vw;
+    display: flex;
+    justify-content: center;
     #supportBox {
-        margin: auto;
-        height: 85vh;
-        width: 75vh;
+        @include size(45vw, 45vw);
         background-color: #2B2B2B;
         box-sizing: border-box;
-        padding: 10px;
-        grid-area: inputs;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
 
-    input {
-        background-color: #D9D9D9;
-        border: none;
-        font-size: medium;
-        padding: 2%;
-        margin: 2%;
-    }
+        .inputs{
+            display: flex;
+            justify-content: space-evenly;
+            @include size(45vw, 5vh);
+            input {
+                    background-color: #D9D9D9;
+                    border: none;
+                    font-size: medium;
+                    @include size(18.6vw, 5vh);
+            }
+        }
 
-    .nameInput {
-        float: left;
-    }
-
-    .emailInput {
-        float: right;
-    }
-
-    .descInput {
-        width: 95%;
-        margin: 2%;
-        height: 20vh;
-        color: #2B2B2B;
-        font-weight: bolder;
-        background-color: #D9D9D9;
-        font-size: medium;
-        font-family: 'Trebuchet MS'
-    }
-
-    h1 {
-            color: white;
-    }
-        ::placeholder {
+        .descInput {
+            @include size(40vw, 10vw);
             color: #2B2B2B;
             font-weight: bolder;
-        }
-    
-        .supportSubmit {
-            padding: 2% 8% 2% 8%;
-            background-color: #7800C6;
-            color: white;
-            border: none;
-            font-family: 'Trebuchet MS';
+            background-color: #D9D9D9;
             font-size: medium;
+            font-family: 'Trebuchet MS';
+            margin-left: auto;
+            margin-right: auto;
         }
-    
-        #googleMap {
-            margin: auto;
-            height: 30vh;
-            width: 40vh;
-            margin-top: 5%;
+
+        h1 {
+                color: white;
         }
+            ::placeholder {
+                color: #2B2B2B;
+                font-weight: bolder;
             }
+        
+            .supportSubmit {
+                @include size(25vw, 5vh);
+                background-color: #7800C6;
+                color: white;
+                border: none;
+                font-family: 'Trebuchet MS';
+                font-size: medium;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+            #googleMap {
+                @include size(25vw, 20vw);
+                margin-top: 5%;
+                margin-left:auto;
+                margin-right: auto;
+            }
+    }
 }
 
 // #supportBox {
