@@ -1,0 +1,58 @@
+#mainContainer {
+  height: 90vh;
+  margin-top: 13%;
+  text-align: center;
+}
+#mainContainer #supportBox {
+  margin: auto;
+  height: 85vh;
+  width: 75vh;
+  background-color: #2B2B2B;
+  box-sizing: border-box;
+  padding: 10px;
+  grid-area: inputs;
+}
+#mainContainer #supportBox input {
+  background-color: #D9D9D9;
+  border: none;
+  font-size: medium;
+  padding: 2%;
+  margin: 2%;
+}
+#mainContainer #supportBox .nameInput {
+  float: left;
+}
+#mainContainer #supportBox .emailInput {
+  float: right;
+}
+#mainContainer #supportBox .descInput {
+  width: 95%;
+  margin: 2%;
+  height: 20vh;
+  color: #2B2B2B;
+  font-weight: bolder;
+  background-color: #D9D9D9;
+  font-size: medium;
+  font-family: "Trebuchet MS";
+}
+#mainContainer #supportBox h1 {
+  color: white;
+}
+#mainContainer #supportBox ::placeholder {
+  color: #2B2B2B;
+  font-weight: bolder;
+}
+#mainContainer #supportBox .supportSubmit {
+  padding: 2% 8% 2% 8%;
+  background-color: #7800C6;
+  color: white;
+  border: none;
+  font-family: "Trebuchet MS";
+  font-size: medium;
+}
+#mainContainer #supportBox #googleMap {
+  margin: auto;
+  height: 30vh;
+  width: 40vh;
+  margin-top: 5%;
+}/*# sourceMappingURL=support.css.map */

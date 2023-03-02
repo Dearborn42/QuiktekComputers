@@ -38,6 +38,30 @@
         font-size: medium;
         font-family: 'Trebuchet MS'
     }
+
+    h1 {
+            color: white;
+    }
+        ::placeholder {
+            color: #2B2B2B;
+            font-weight: bolder;
+        }
+    
+        .supportSubmit {
+            padding: 2% 8% 2% 8%;
+            background-color: #7800C6;
+            color: white;
+            border: none;
+            font-family: 'Trebuchet MS';
+            font-size: medium;
+        }
+    
+        #googleMap {
+            margin: auto;
+            height: 30vh;
+            width: 40vh;
+            margin-top: 5%;
+        }
             }
 }
 
