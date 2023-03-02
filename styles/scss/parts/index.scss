@@ -1,29 +1,32 @@
 @import "../utils/size.scss";
 
 .image-container{
-    @include size(100%, 100vh);
+    margin-top: -13vw;
+    @include size(100%, 53vw);
     background-image: url("../../image-container.jpg");
 
     .opening{
-        @include size(27vw, 50vh);
+        @include size(27vw, 26vw);
         background-color: #2B2B2B;
         color:white;
         position: absolute;
-        margin-top: 27.2%;
-        margin-left: 1%;
+        margin-top: 27.2vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
 
         h2 {
             font-size: 30px;
-            margin-top: 20px;
+            margin-top: 1vw;
         }
-        h3{
+        h4{
             font-size: 15px;
             font-weight: 200;
-            margin-bottom: 20px;
+            margin-bottom: 1vw;
         }
 
         .startInfo{
-            text-align: left;
+            text-align: center;
             font-weight: lighter;
             font-size: 15px;
             margin{
@@ -33,9 +36,8 @@
             }
         }
         .learn{
-            text-align: left;
-            margin-left: 6%;
-            margin-top: 10%;
+            display: flex;
+            justify-content: center;
             .buttons{
                 background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box,
                         linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
@@ -44,43 +46,43 @@
                 color: white;
                 font-weight: bold;
                 font-size: 20px;
-                @include size(200px, 50px);
+                @include size(20vw, 5vw);
             }
         }
     }
     .rightTriangle{
         position: absolute;
         @include size(0, 0);
-        border-top: 50vh solid transparent;
+        border-top: 26vw solid transparent;
         border-left: 15vw solid #2B2B2B;
         border-bottom: 0px solid transparent;
         border-right: 0px solid transparent;
-        margin-top: 27.2%;
-        margin-left: 28%;
+        margin-top: 27.21vw;
+        margin-left: 27vw;
     }
 }
 
 .black-right-triangle {
     position: absolute;
-    border-top: 55.1vh solid transparent;
+    border-top: 30vw solid transparent;
     border-left: 15vw solid #2B2B2B;
     border-bottom: 0px solid transparent;
     border-right: 0px solid transparent;
     margin-left: 35vw;
-    margin-top: -55vh;
+    margin-top: -30vw;
 
 }
 .black-left-triangle{
     position: absolute;
-    border-top: 55.1vh solid transparent;
+    border-top: 30vw solid transparent;
     border-left: 0px solid transparent;
     border-bottom: 0px solid transparent;
     border-right: 15vw solid #2B2B2B;
     margin-left: 40.3vw;
-    margin-top: -55vh;
+    margin-top: -30vw;
 }
 .black-space {
-    @include size(35vw, 55vh);
+    @include size(35vw, 30vw);
     background-color: #2B2B2B;
 }
 
@@ -95,7 +97,7 @@
 }
 
 .computer-repair.hover, .laptop-repair.hover, .virus-removal.hover{
-    @include size(0vw, 55vh);
+    @include size(0vw, 30vw);
     background-image: url("../../image-container.jpg");
 }
 

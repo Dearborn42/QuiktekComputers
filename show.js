@@ -1,14 +1,21 @@
+
+// widths for each of the containers
 let compLength = 0;
 let lapLength = 0;
 let virLength = 0;
 let max = 90;
 
+// Set each container to a variable
 var computer = document.querySelector(".computer-repair");
 var laptop = document.querySelector(".laptop-repair");
 var virus = document.querySelector(".virus-removal");
 let cCheck, lCheck, vCheck = false;
+let cScroll, lScroll, vScroll = 0;
 
+
+// methods that recursivly call themselves if they are less than the max
 function compAnimate() {
+    console.log(compLength);
     if(compLength <= max) {
         computer.style.width = `${compLength}vw`;
         compLength+=.5;
@@ -25,6 +32,7 @@ function lapAnimate() {
 }
 
 function virAnimate() {
+
     if(virLength <= max) {
         virus.style.width = `${virLength}vw`;
         virLength+=.5;
@@ -32,6 +40,8 @@ function virAnimate() {
     }
 }
 
+
+// OnScrollListener that initally calls the methods once they appear on the screen
 window.addEventListener("scroll", function() {
     var computerPos = computer.getBoundingClientRect();
     var laptopPos = laptop.getBoundingClientRect();
