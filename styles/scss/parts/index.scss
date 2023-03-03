@@ -1,4 +1,4 @@
-@import "../utils";
+@import "../utils/margin.scss","../utils/padding.scss","../utils/size.scss";
 
 .image-container{
     margin-top: -13vw;
@@ -63,9 +63,7 @@
     border-left: 15vw solid #2B2B2B;
     border-bottom: 0px solid transparent;
     border-right: 0px solid transparent;
-    margin-left: 35vw;
-    margin-top: -30vw;
-
+    @include margin(-30vw, 0, 0, 35vw);
 }
 .black-left-triangle{
     position: absolute;
@@ -73,8 +71,7 @@
     border-left: 0px solid transparent;
     border-bottom: 0px solid transparent;
     border-right: 15vw solid #2B2B2B;
-    margin-left: 40.3vw;
-    margin-top: -30vw;
+    @include margin(-30vw, 0, 0, 40.3vw);
 }
 .black-space {
     @include size(35vw, 30vw);

@@ -90,9 +90,6 @@ nav .logo {
 .image-container .opening h2 {
   font-size: 30px;
   margin-top: 1vw;
-  margin-right: 0;
-  margin-bottom: 1vw;
-  margin-left: 0;
 }
 .image-container .opening h4 {
   font-size: 15px;
@@ -102,11 +99,11 @@ nav .logo {
 .image-container .opening .startInfo {
   text-align: center;
   font-weight: lighter;
-}
-.image-container .opening .startInfo margin {
-  left: 8%;
-  top: 5px;
-  bottom: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-left: 8%;
 }
 .image-container .opening .learn {
   display: flex;
@@ -131,6 +128,8 @@ nav .logo {
   border-bottom: 0px solid transparent;
   border-right: 0px solid transparent;
   margin-top: 27.21vw;
+  margin-right: 0;
+  margin-bottom: 0;
   margin-left: 27vw;
 }
 
@@ -140,8 +139,10 @@ nav .logo {
   border-left: 15vw solid #2B2B2B;
   border-bottom: 0px solid transparent;
   border-right: 0px solid transparent;
-  margin-left: 35vw;
   margin-top: -30vw;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 35vw;
 }
 
 .black-left-triangle {
@@ -150,8 +151,10 @@ nav .logo {
   border-left: 0px solid transparent;
   border-bottom: 0px solid transparent;
   border-right: 15vw solid #2B2B2B;
-  margin-left: 40.3vw;
   margin-top: -30vw;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 40.3vw;
 }
 
 .black-space {
