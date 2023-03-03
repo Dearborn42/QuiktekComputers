@@ -43,9 +43,9 @@ nav .header-tags a {
   color: white;
   text-align: center;
   padding-top: 12px;
+  padding-right: 5px;
   padding-bottom: 12px;
   padding-left: 5px;
-  padding-right: 5px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
@@ -65,7 +65,9 @@ nav .header-tags a:hover {
 }
 nav .logo {
   margin-top: 20px;
+  margin-right: 0;
   margin-bottom: -15px;
+  margin-left: 0;
   width: 260px;
   height: 90px;
 }

@@ -1,4 +1,4 @@
-
+@import "../utils/margin.scss", "../utils/size.scss", "../utils/padding.scss";
 $main-color: #7800C6;
 $secondary-color: #2B2B2B;
 nav{
@@ -45,12 +45,7 @@ nav{
             float: left;
             color: white;
             text-align: center;
-            padding: {
-                top: 12px;
-                bottom: 12px;
-                left: 5px;
-                right: 5px;
-            }
+            @include padding(12px, 5px, 12px, 5px);
             text-decoration: none;
             font-size: 18px;
             line-height: 25px;
@@ -70,9 +65,7 @@ nav{
         }
     }
     .logo {
-        margin-top: 20px;
-        margin-bottom: -15px;
-        width: 260px;
-        height: 90px;
+        @include margin(20px, 0, -15px, 0);
+        @include size(260px, 90px);
     }
 }
