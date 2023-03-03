@@ -28,12 +28,8 @@
         .startInfo{
             text-align: center;
             font-weight: lighter;
-
-            margin{
-                left: 8%;
-                top: 5px;
-                bottom: 5px;
-            }
+            font-size: 15px;
+            @include margin(5px, 0, 5px, 8%);
         }
         .learn{
             display: flex;
@@ -57,8 +53,7 @@
         border-left: 15vw solid #2B2B2B;
         border-bottom: 0px solid transparent;
         border-right: 0px solid transparent;
-        margin-top: 27.21vw;
-        margin-left: 27vw;
+        @include margin(27.21vw, 0, 0, 27vw);
     }
 }
 
