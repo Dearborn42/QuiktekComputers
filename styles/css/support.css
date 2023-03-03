@@ -1,5 +1,5 @@
 #mainContainer {
-  height: 70vw;
+  height: 50vw;
   display: flex;
   justify-content: center;
 }
@@ -11,6 +11,13 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+#mainContainer #supportBox .supportHeader {
+  font-size: 30px;
+  margin-top: 2vh;
+  margin-right: 0;
+  margin-bottom: 2vh;
+  margin-left: 0;
 }
 #mainContainer #supportBox .inputs {
   display: flex;
@@ -38,6 +45,7 @@
 }
 #mainContainer #supportBox h1 {
   color: white;
+  font-size: 30px;
 }
 #mainContainer #supportBox ::placeholder {
   color: #2B2B2B;
@@ -60,4 +68,8 @@
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
+}
+
+body {
+  padding-top: 15%;
 }/*# sourceMappingURL=support.css.map */

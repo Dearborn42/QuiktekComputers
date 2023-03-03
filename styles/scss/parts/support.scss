@@ -1,6 +1,6 @@
-@import "../utils/size.scss";
+@import "../utils/size.scss",  "../utils/margin.scss";
 #mainContainer {
-    height: 70vw;
+    height: 50vw;
     display: flex;
     justify-content: center;
     #supportBox {
@@ -11,6 +11,10 @@
         flex-direction: column;
         text-align: center;
 
+        .supportHeader{
+            font-size: 30px;
+           @include margin(2vh, 0, 2vh, 0);
+        }
         .inputs{
             display: flex;
             justify-content: space-evenly;
@@ -36,6 +40,8 @@
 
         h1 {
                 color: white;
+                font-size: 30px;
+                
         }
             ::placeholder {
                 color: #2B2B2B;
@@ -62,6 +68,9 @@
     }
 }
 
+body {
+    padding-top: 15%;
+}
 // #supportBox {
 //     margin: auto;
 //     height: 85vh;

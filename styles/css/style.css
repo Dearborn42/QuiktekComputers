@@ -90,9 +90,6 @@ nav .logo {
 .image-container .opening h2 {
   font-size: 30px;
   margin-top: 1vw;
-  margin-right: 0;
-  margin-bottom: 1vw;
-  margin-left: 0;
 }
 .image-container .opening h4 {
   font-size: 15px;
@@ -102,11 +99,11 @@ nav .logo {
 .image-container .opening .startInfo {
   text-align: center;
   font-weight: lighter;
-}
-.image-container .opening .startInfo margin {
-  left: 8%;
-  top: 5px;
-  bottom: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-left: 8%;
 }
 .image-container .opening .learn {
   display: flex;
@@ -131,6 +128,8 @@ nav .logo {
   border-bottom: 0px solid transparent;
   border-right: 0px solid transparent;
   margin-top: 27.21vw;
+  margin-right: 0;
+  margin-bottom: 0;
   margin-left: 27vw;
 }
 
@@ -269,7 +268,7 @@ body {
 }
 
 #mainContainer {
-  height: 70vw;
+  height: 50vw;
   display: flex;
   justify-content: center;
 }
@@ -281,6 +280,13 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+#mainContainer #supportBox .supportHeader {
+  font-size: 30px;
+  margin-top: 2vh;
+  margin-right: 0;
+  margin-bottom: 2vh;
+  margin-left: 0;
 }
 #mainContainer #supportBox .inputs {
   display: flex;
@@ -308,6 +314,7 @@ body {
 }
 #mainContainer #supportBox h1 {
   color: white;
+  font-size: 30px;
 }
 #mainContainer #supportBox ::placeholder {
   color: #2B2B2B;
@@ -330,6 +337,10 @@ body {
   margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
+}
+
+body {
+  padding-top: 15%;
 }
 
 * {

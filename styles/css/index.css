@@ -27,11 +27,11 @@
 .image-container .opening .startInfo {
   text-align: center;
   font-weight: lighter;
-}
-.image-container .opening .startInfo margin {
-  left: 8%;
-  top: 5px;
-  bottom: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-left: 8%;
 }
 .image-container .opening .learn {
   display: flex;
@@ -56,6 +56,8 @@
   border-bottom: 0px solid transparent;
   border-right: 0px solid transparent;
   margin-top: 27.21vw;
+  margin-right: 0;
+  margin-bottom: 0;
   margin-left: 27vw;
 }
 
