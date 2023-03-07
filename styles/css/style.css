@@ -267,6 +267,109 @@ body {
   padding-top: 20%;
 }
 
+.image-container {
+  margin-top: -13vw;
+  width: 100%;
+  height: 53vw;
+  background-image: url("../../image-container.jpg");
+}
+.image-container .opening {
+  width: 27vw;
+  height: 26vw;
+  background-color: #2B2B2B;
+  color: white;
+  position: absolute;
+  margin-top: 27.2vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image-container .opening h2 {
+  font-size: 30px;
+  margin-top: 1vw;
+}
+.image-container .opening h4 {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 1vw;
+}
+.image-container .opening .startInfo {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-left: 8%;
+}
+.image-container .opening .learn {
+  display: flex;
+  justify-content: center;
+}
+.image-container .opening .learn .buttons {
+  background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box, linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+  border-radius: 1em;
+  border: 5px solid transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: 20vw;
+  height: 5vw;
+}
+.image-container .rightTriangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 26vw solid transparent;
+  border-left: 15vw solid #2B2B2B;
+  border-bottom: 0px solid transparent;
+  border-right: 0px solid transparent;
+  margin-top: 27.21vw;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 27vw;
+}
+
+.black-right-triangle {
+  position: absolute;
+  border-top: 30vw solid transparent;
+  border-left: 15vw solid #2B2B2B;
+  border-bottom: 0px solid transparent;
+  border-right: 0px solid transparent;
+  margin-left: 35vw;
+  margin-top: -30vw;
+}
+
+.black-left-triangle {
+  position: absolute;
+  border-top: 30vw solid transparent;
+  border-left: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 15vw solid #2B2B2B;
+  margin-left: 40.3vw;
+  margin-top: -30vw;
+}
+
+.black-space {
+  width: 35vw;
+  height: 30vw;
+  background-color: #2B2B2B;
+}
+
+.computer-repair, .laptop-repair, .virus-removal {
+  margin-left: 5vw;
+}
+
+.laptop-repair .black-space {
+  margin-left: 55.3vw;
+}
+
+.computer-repair.hover, .laptop-repair.hover, .virus-removal.hover {
+  width: 0vw;
+  height: 30vw;
+  background-image: url("../../image-container.jpg");
+}
+
 #mainContainer {
   height: 50vw;
   display: flex;
@@ -332,6 +435,8 @@ body {
   margin-right: auto;
   margin-bottom: 5%;
   margin-top: 5%;
+  background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box, linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+  border: 5px solid transparent;
 }
 #mainContainer #supportBox #googleMap {
   width: 30vw;
