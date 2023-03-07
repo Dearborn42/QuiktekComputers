@@ -390,6 +390,7 @@ body {
   margin-right: 0;
   margin-bottom: 2vh;
   margin-left: 0;
+  color: white;
 }
 #mainContainer #supportBox .inputs {
   display: flex;
@@ -415,10 +416,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-#mainContainer #supportBox h1 {
-  color: white;
-  font-size: 30px;
-}
 #mainContainer #supportBox ::placeholder {
   color: #2B2B2B;
   font-weight: bolder;
@@ -437,6 +434,8 @@ body {
   margin-top: 5%;
   background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box, linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
   border: 5px solid transparent;
+  font-size: 20px;
+  border-radius: 1em;
 }
 #mainContainer #supportBox #googleMap {
   width: 30vw;

@@ -15,6 +15,7 @@
         .supportHeader{
             font-size: 30px;
            @include margin(2vh, 0, 2vh, 0);
+           color: white;
         }
         .inputs{
             display: flex;
@@ -39,11 +40,6 @@
             margin-right: auto;
         }
 
-        h1 {
-                color: white;
-                font-size: 30px;
-                
-        }
             ::placeholder {
                 color: #2B2B2B;
                 font-weight: bolder;
@@ -64,6 +60,7 @@
                 linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
                 border: 5px solid transparent;
                 font-size: 20px;
+                border-radius: 1em;
             }
         
             #googleMap {
@@ -77,3 +74,52 @@
 body {
     padding-top: 15%;
 }
+
+// @media (min-width: 1200px) {
+//     .supportHeader {
+//             color: white;
+//             font-size: 100px;
+//         }
+// }
+
+// $breakpoint-xsmall: 320px;
+// $breakpoint-small: 576px;
+// $breakpoint-medium: 768px;
+// $breakpoint-large: 1024px;
+// $breakpoint-extra-large: 1300px;
+
+// @mixin min-width($breakpoint) {
+//     @if ($breakpoint ==xsmall) {
+//         @media (min-width: $breakpoint-xsmall) {
+//             @content;
+//         }
+//     }
+
+//     @else if ($breakpoint ==small) {
+//         @media (min-width: $breakpoint-small) {
+//             @content;
+//         }
+//     }
+
+//     @else if ($breakpoint ==medium) {
+//         @media (min-width: $breakpoint-medium) {
+//             @content;
+//         }
+//     }
+
+//     @else if ($breakpoint ==large) {
+//         @media (min-width: $breakpoint-large) {
+//             @content;
+//         }
+//     }
+
+//     @else if ($breakpoint ==xlarge) {
+//         @media (min-width: $breakpoint-extra-large) {
+//             @content;
+//         }
+//     }
+
+//     @else {
+//         @error "UNKNOWN MEDIA BREAKPOINT #{$breakpoint}";
+//     }
+// }
