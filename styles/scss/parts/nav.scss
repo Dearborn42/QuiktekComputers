@@ -1,6 +1,9 @@
 @import "../utils/margin.scss", "../utils/size.scss", "../utils/padding.scss";
 $main-color: #7800C6;
 $secondary-color: #2B2B2B;
+
+
+
 nav{
     .header-top{
         overflow: hidden;
@@ -16,6 +19,9 @@ nav{
             margin-top: 5px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
+    }
+    .dropdown {
+        display: none;
     }
     .header-body{
         overflow: hidden;
@@ -68,4 +74,68 @@ nav{
         @include margin(20px, 0, -15px, 0);
         @include size(260px, 90px);
     }
+}
+
+
+@media (max-width: 640px) {
+    .header-tags {
+        display: none;
+    }
+
+        nav {
+            .dropdown {
+                display: block;
+                margin-top: 55px;
+                margin-right: 20px;
+                font-weight: lighter;
+                position: relative;
+                display: inline-block;
+    
+                a:hover {
+                    background-color: #ddd;
+                }
+    
+                float: right;
+            }
+    
+            .dropbtn {
+                display: block;
+                background-color: black;
+                color: white;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                cursor: pointer;
+            }
+    
+            .dropbtn:hover,
+            .dropbtn:focus {
+                background-color: black;
+            }
+    
+            .dropdown-content {
+                display: flex;
+                flex-direction: column;
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                min-width: 160px;
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 8;
+    
+                /* Add z-index value */
+                a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                }
+    
+            }
+    
+            .show {
+                display: block;
+            }
+        }
 }

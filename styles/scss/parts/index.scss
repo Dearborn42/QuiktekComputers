@@ -14,36 +14,25 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-
+        h4 {
+            font-size: 1.2vw;
+        }
+    
+        h3 {
+            font-size: 1.7vw;
+        }
+    
         h2 {
-            font-size: 30px;
-            margin-top: 1vw;
+            font-size: 2.5vw;
         }
-        h4{
-            font-size: 15px;
-            font-weight: 200;
-            margin-bottom: 1vw;
-        }
-
         .startInfo{
             text-align: center;
             font-weight: lighter;
-            font-size: 15px;
             @include margin(5px, 0, 5px, 8%);
         }
         .learn{
             display: flex;
             justify-content: center;
-            .buttons{
-                background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box,
-                        linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
-                border-radius: 1em;
-                border: 5px solid transparent;
-                color: white;
-                font-weight: bold;
-                font-size: 20px;
-                @include size(20vw, 5vw);
-            }
         }
     }
     .rightTriangle{
@@ -76,6 +65,18 @@
 .black-space {
     @include size(35vw, 30vw);
     background-color: #2B2B2B;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+    justify-items: center;
+    p {
+        font-size: 1.6vw;
+    }
+    h2{
+        font-size: 2vw;
+    }
 }
 
 .computer-repair, .laptop-repair, .virus-removal{
@@ -93,3 +94,19 @@
     background-image: url("../../image-container.jpg");
 }
 
+.buttons {
+    background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box,
+        linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+    border-radius: 1em;
+    border: 5px solid transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 2vw;
+    @include size(20vw, 5vw);
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    font-size: 30px;
+    margin-top: 1vw;
+}
