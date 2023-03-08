@@ -300,6 +300,33 @@ footer .footer-bottom {
   background-color: #2B2B2B;
   color: white;
   text-align: center;
+  border-top: 4px solid #7800C6;
+  border-bottom: 4px solid #7800C6;
+}
+.right p {
+  margin-top: -15px;
+  width: 25rem;
+  font-weight: lighter;
+}
+.right button {
+  background-color: #7800C6;
+  border-radius: 5px;
+  border: 3px solid #7800C6;
+  color: white;
+  font-weight: bolder;
+  width: 10rem;
+  top: 10rem;
+  margin-top: 30px;
+}
+
+#rightOne {
+  border: 4px solid #7800C6;
+  border-radius: 10px;
+}
+
+#rightTwo {
+  border: 4px solid #7800C6;
+  border-radius: 10px;
 }
 
 .hidden {
@@ -326,6 +353,20 @@ footer .footer-bottom {
   justify-content: center;
 }
 
+#bottom.hover {
+  border: 4px solid #7800C6;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px #7800C6;
+}
+
+#rightOne.hover {
+  box-shadow: 0px 0px 30px #7800C6;
+}
+
+#rightTwo.hover {
+  box-shadow: 0px 0px 30px #7800C6;
+}
+
 .hidden.hover {
   display: inline-block;
   animation: fadeIn 5s;
@@ -339,8 +380,140 @@ body {
   padding-top: 20%;
 }
 
+h3 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-weight: bolder;
+}
+
+.image-container {
+  margin-top: -13vw;
+  width: 100%;
+  height: 53vw;
+  background-image: url("../../image-container.jpg");
+}
+.image-container .opening {
+  width: 27vw;
+  height: 26vw;
+  background-color: #2B2B2B;
+  color: white;
+  position: absolute;
+  margin-top: 27.2vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.image-container .opening h4 {
+  font-size: 1.2vw;
+}
+.image-container .opening h3 {
+  font-size: 1.7vw;
+}
+.image-container .opening h2 {
+  font-size: 2.5vw;
+}
+.image-container .opening .startInfo {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 5px;
+  margin-left: 8%;
+}
+.image-container .opening .learn {
+  display: flex;
+  justify-content: center;
+}
+.image-container .rightTriangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 26vw solid transparent;
+  border-left: 15vw solid #2B2B2B;
+  border-bottom: 0px solid transparent;
+  border-right: 0px solid transparent;
+  margin-top: 27.21vw;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 27vw;
+}
+
+.black-right-triangle {
+  position: absolute;
+  border-top: 30vw solid transparent;
+  border-left: 15vw solid #2B2B2B;
+  border-bottom: 0px solid transparent;
+  border-right: 0px solid transparent;
+  margin-top: -30vw;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 35vw;
+}
+
+.black-left-triangle {
+  position: absolute;
+  border-top: 30vw solid transparent;
+  border-left: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 15vw solid #2B2B2B;
+  margin-top: -30vw;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 40.3vw;
+}
+
+.black-space {
+  width: 35vw;
+  height: 30vw;
+  background-color: #2B2B2B;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  color: white;
+  justify-content: space-around;
+  justify-items: center;
+}
+.black-space p {
+  font-size: 1.6vw;
+}
+.black-space h2 {
+  font-size: 2vw;
+}
+
+.computer-repair, .laptop-repair, .virus-removal {
+  margin-left: 5vw;
+}
+
+.laptop-repair .black-space {
+  margin-left: 55.3vw;
+}
+
+.computer-repair.hover, .laptop-repair.hover, .virus-removal.hover {
+  width: 0vw;
+  height: 30vw;
+  background-image: url("../../image-container.jpg");
+}
+
+.buttons {
+  background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box, linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+  border-radius: 1em;
+  border: 5px solid transparent;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  width: 20vw;
+  height: 5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 1vw;
+}
+
 #mainContainer {
-  height: 70vw;
+  height: 50vw;
   display: flex;
   justify-content: center;
 }
@@ -352,6 +525,14 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+#mainContainer #supportBox .supportHeader {
+  font-size: 30px;
+  margin-top: 2vh;
+  margin-right: 0;
+  margin-bottom: 2vh;
+  margin-left: 0;
+  color: white;
 }
 #mainContainer #supportBox .inputs {
   display: flex;
@@ -377,9 +558,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-#mainContainer #supportBox h1 {
-  color: white;
-}
 #mainContainer #supportBox ::placeholder {
   color: #2B2B2B;
   font-weight: bolder;
@@ -394,13 +572,22 @@ body {
   font-size: medium;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box, linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+  border: 5px solid transparent;
+  font-size: 20px;
+  border-radius: 1em;
 }
 #mainContainer #supportBox #googleMap {
-  width: 25vw;
+  width: 30vw;
   height: 20vw;
-  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
+}
+
+body {
+  padding-top: 15%;
 }
 
 * {
