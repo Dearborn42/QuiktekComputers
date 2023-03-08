@@ -20,9 +20,6 @@ nav{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
     }
-    .dropdown {
-        display: none;
-    }
     .header-body{
         overflow: hidden;
         background-color: $secondary-color;
@@ -42,6 +39,9 @@ nav{
             border-radius: 5px;
         }
     }
+        .dropdown {
+            display: none;
+        }
     .header-tags{
         float: right;
         margin-top: 55px;
@@ -117,7 +117,7 @@ nav{
                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
                 @include size(104px, 160px);
                 a {
-                    color: black;
+                    color: rgb(12, 9, 9);
                     text-decoration: none;
                     display: block;
                 }

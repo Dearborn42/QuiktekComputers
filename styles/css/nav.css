@@ -13,9 +13,6 @@ nav .header-top p {
   margin-top: 5px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-nav .dropdown {
-  display: none;
-}
 nav .header-body {
   overflow: hidden;
   background-color: #2B2B2B;
@@ -34,6 +31,9 @@ nav .header-body a {
   font-size: 18px;
   line-height: 25px;
   border-radius: 5px;
+}
+nav .dropdown {
+  display: none;
 }
 nav .header-tags {
   float: right;
@@ -112,7 +112,7 @@ nav .dropbtn:focus {
     height: 160px;
   }
   nav .dropdown-content a {
-    color: black;
+    color: rgb(12, 9, 9);
     text-decoration: none;
     display: block;
   }
