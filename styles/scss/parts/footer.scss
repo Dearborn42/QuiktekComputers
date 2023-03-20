@@ -7,29 +7,42 @@
 
 footer{
     @include size(100%, 40vh);
+    display: flex;
     background-color: #2B2B2B;
     color: white;
     a {
         color: white;
         text-decoration: none;
+        height: 20px;
     }
 
-    .footer-top {
-        @include flex(space-between);
+    .footer-left {
+        @include flex(center);
+        width: 50vw;
+        float: left;
+        flex-direction: column;
         .footer-row {
             @include flex(space-evenly);
-            width: 25vw;
-            padding-top: 5vh;
-            font-size: larger;
+            @include size(40vw, 10vh);
+            padding-top: 10vh;
+            font-size: 1.5vw;
+            border-bottom: 2px solid white;
+            margin-left: auto;
+            margin-right: auto;
         }
-    
-        .img {
-            width: 20vw;
+        .footer-column{
+            @include flex(space-evenly);
+            @include size(50vw, 10vh);
+            padding-top: 5vh;
+            font-size: 1.5vw;
         }
     }
-    .footer-bottom {
-        display: flex;
-        flex-direction: column;
-        width: 20vw;
+
+    .footer-right{
+        width: 50vw;
+        float: right;
+        img{
+            @include size(48vw, 35vh);
+        }
     }
 }
