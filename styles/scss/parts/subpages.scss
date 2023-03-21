@@ -1,0 +1,32 @@
+@import "../utils/size.scss", "../utils/margin.scss",
+"./index.scss", "./support.scss";
+
+#subpagesMain {
+    height: 40vw;
+    display: flex;
+    margin:0 5vw 5vw 5vw; 
+}
+
+#leftPicture{
+background-color: azure;
+display: flex;
+width:55%;
+}
+
+#rightContent{
+background-color: #343434;
+width:45%;
+text-align: center;
+.contentHeader 
+{
+    font-size: 30px;
+    @include margin(4vh, 2vh, 2vh, 2vh);
+    color: white;
+}
+.contentParagraph
+{
+    font-size: 1.3vw;
+    @include margin(1vh, 2vh, 1vh, 2vh);
+    color: white;
+}
+}
