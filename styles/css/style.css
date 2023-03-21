@@ -82,7 +82,7 @@ nav .logo {
   nav .dropdown {
     display: block;
     margin-top: 55px;
-    margin-right: 20px;
+    margin-right: 50px;
     font-weight: lighter;
     position: relative;
     float: right;
@@ -92,9 +92,11 @@ nav .logo {
   }
   nav .dropbtn {
     display: block;
-    background-color: black;
+    background-image: url("../../drop-down.jpg");
+    background-size: cover;
     color: white;
     padding: 16px;
+    margin-left: 35px;
     font-size: 16px;
     border: none;
   }
