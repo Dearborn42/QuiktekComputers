@@ -64,12 +64,23 @@
             border: 5px solid transparent;
             font-size: 20px;
             border-radius: 1em;
+            color:white;
         }
 
-        #googleMap {
-            @include size(30vw, 20vw);
-            margin-left: auto;
-            margin-right: auto;
-        }
+            #map-responsive {
+                overflow: hidden;
+                padding-bottom: 56.25%;
+                position: relative;
+                height: 0;
+                margin:auto;
+            }
+    
+            #map-responsive iframe {
+                left: 0;
+                top: 0;
+                height:100%;
+                width: 100%;
+                position: absolute;
+            }
     }
 }
