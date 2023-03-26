@@ -317,11 +317,19 @@ h2 {
   border-radius: 1em;
   color: white;
 }
-#mainContainer #supportBox #googleMap {
-  width: 30vw;
-  height: 20vw;
-  margin-left: auto;
-  margin-right: auto;
+#mainContainer #supportBox #map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  margin: auto;
+}
+#mainContainer #supportBox #map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 #subpagesMain {
@@ -331,7 +339,7 @@ h2 {
 }
 
 #leftPicture {
-  background-color: azure;
+  background-color: white;
   display: flex;
   width: 55%;
 }
