@@ -8,7 +8,7 @@
 }
 
 #leftPicture{
-    background-color: white;
+    // background-color: white;
 display: flex;
 width:55%;
 }
@@ -29,4 +29,14 @@ text-align: center;
     @include margin(1vh, 2vh, 1vh, 2vh);
     color: white;
 }
+}
+
+.laptopPicture{
+background-image: url('laptopImage.jpg');
+}
+.desktopPicture {
+background-image: url("desktopImage.jpg");
+}
+.virusPicture {
+background-image: url("virusImage.jpg");
 }

@@ -929,7 +929,6 @@ h2 {
 }
 
 #leftPicture {
-  background-color: white;
   display: flex;
   width: 55%;
 }
@@ -954,6 +953,18 @@ h2 {
   margin-bottom: 1vh;
   margin-left: 2vh;
   color: white;
+}
+
+.laptopPicture {
+  background-image: url("laptopImage.jpg");
+}
+
+.desktopPicture {
+  background-image: url("desktopImage.jpg");
+}
+
+.virusPicture {
+  background-image: url("virusImage.jpg");
 }
 
 html {
