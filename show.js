@@ -3,7 +3,7 @@
 let compLength = 0;
 let lapLength = 0;
 let virLength = 0;
-let max = 90;
+let max = 100;
 
 // Set each container to a variable
 var computer = document.querySelector(".computer-repair");

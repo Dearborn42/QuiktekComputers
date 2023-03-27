@@ -6,7 +6,11 @@ html {
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: white;
+}
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -21,5 +25,5 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: gray;
+    background: white;
 }

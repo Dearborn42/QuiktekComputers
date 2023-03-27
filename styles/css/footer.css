@@ -1,29 +1,55 @@
 footer {
   width: 100%;
   height: 40vh;
+  display: flex;
   background-color: #2B2B2B;
   color: white;
 }
 footer a {
   color: white;
   text-decoration: none;
+  padding-top: 12px;
+  padding-right: 5px;
+  padding-bottom: 12px;
+  padding-left: 5px;
+  font-size: 1.5vw;
 }
-footer .footer-top {
+footer .footer-left {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  width: 50vw;
+  float: left;
+  flex-direction: column;
 }
-footer .footer-top .footer-row {
+footer .footer-left .footer-row {
   display: flex;
   justify-content: space-evenly;
-  width: 25vw;
-  padding-top: 5vh;
-  font-size: larger;
+  width: 50vw;
+  height: 5vh;
 }
-footer .footer-top .img {
-  width: 20vw;
+footer .footer-left .footer-row a:hover {
+  background-color: #343434;
+  transition: 0.6s;
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(to right, #008080, #7800C6) 1;
 }
-footer .footer-bottom {
+footer .footer-left .footer-column {
   display: flex;
-  flex-direction: column;
-  width: 20vw;
+  justify-content: space-evenly;
+  width: 40vw;
+  height: 10vh;
+  padding-top: 5vh;
+  font-size: 1.5vw;
+  border-top: 2px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footer-right {
+  width: 50vw;
+  float: right;
+}
+footer .footer-right img {
+  width: 48vw;
+  height: 35vh;
 }/*# sourceMappingURL=footer.css.map */

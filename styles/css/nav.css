@@ -1,6 +1,6 @@
 nav .header-top {
   overflow: hidden;
-  background-color: #7800C6;
+  background-color: #1698DE;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -15,12 +15,12 @@ nav .header-top p {
 }
 nav .header-body {
   overflow: hidden;
-  background-color: #2B2B2B;
+  background-color: #161616;
   position: fixed;
   width: 100%;
   top: 0px;
   z-index: 3;
-  box-shadow: 0px 0px 10px #7800C6;
+  box-shadow: 0px 0px 20px #1698DE;
 }
 nav .header-body a {
   float: left;
@@ -64,7 +64,7 @@ nav .header-tags a:hover {
   font-size: 21px;
   border-style: solid;
   border-width: 2px;
-  border-image: linear-gradient(to right, #008080, #7800C6) 1;
+  border-image: linear-gradient(to right, #008080, #1698DE) 1;
 }
 nav .logo {
   margin-top: 20px;

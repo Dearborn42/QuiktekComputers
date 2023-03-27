@@ -1,4 +1,4 @@
-window.addEventListener("scroll", function() {
+window.addEventListener("click", function() {
     let containerTop = document.querySelector(".info");
     let containerBottom = document.querySelector(".info-bottom");
     let info = document.querySelectorAll(".hidden");

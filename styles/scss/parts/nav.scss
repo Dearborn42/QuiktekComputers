@@ -1,6 +1,6 @@
 @import "../utils/margin.scss", "../utils/size.scss", "../utils/padding.scss";
-$main-color: #7800C6;
-$secondary-color: #2B2B2B;
+$main-color: #1698DE;
+$secondary-color: #161616;
 
 
 
@@ -27,7 +27,7 @@ nav{
         width: 100%;
         top: 0px;
         z-index: 3;
-        box-shadow: 0px 0px 10px $main-color;
+        box-shadow: 0px 0px 20px $main-color;
         a {
             float: left;
             color: white;
