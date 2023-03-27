@@ -99,7 +99,7 @@ nav .logo {
     border: none;
   }
   nav .dropbtn:hover,
-  nav .dropbtn:focus {
+nav .dropbtn:focus {
     background-color: black;
   }
   nav .dropdown-content {

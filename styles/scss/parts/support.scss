@@ -60,8 +60,8 @@
             margin-right: auto;
             margin-bottom: 2.5%;
             margin-top: 5%;
-            background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box,
-                linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+            background: linear-gradient(to right, #1698de, #5b58ff) padding-box,
+                linear-gradient(to right, #1698de, #5b58ff) border-box;
             border: 5px solid transparent;
             font-size: 20px;
             border-radius: 1em;
@@ -75,6 +75,7 @@
                 margin:auto;
                 background-color: #D9D9D9;
                 width: 80%;
+                margin-bottom:3.5%;
             }
     
     }
