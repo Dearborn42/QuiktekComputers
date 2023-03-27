@@ -82,6 +82,7 @@ nav{
         display: none;
     }
 
+
         nav {
             .dropdown {
                 display: block;
@@ -127,6 +128,9 @@ nav{
     
             .show {
                 display: block;
+            }
+            .logo{
+                width: 50vw;
             }
         }
 }
