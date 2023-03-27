@@ -107,4 +107,9 @@ h3 {
   padding-top: 10px;
   padding-bottom: 30px;
   font-weight: bolder;
+}
+
+#serviceParagraphs {
+  margin: auto;
+  width: 100%;
 }/*# sourceMappingURL=service.css.map */
