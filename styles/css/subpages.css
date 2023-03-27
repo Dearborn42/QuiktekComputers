@@ -334,11 +334,13 @@ h2 {
 }
 
 #leftPicture {
+  background-color: aliceblue;
   display: flex;
   width: 55%;
 }
 
 #rightContent {
+  border: 2px solid #343434;
   background-color: #343434;
   width: 45%;
   text-align: center;
@@ -360,14 +362,92 @@ h2 {
   color: white;
 }
 
-.laptopPicture {
-  background-image: url("laptopImage.jpg");
+@media (max-width: 1100px) {
+  #rightContent .contentHeader {
+    margin-top: 2vh;
+  }
+  #subpagesMain {
+    height: 60vh;
+  }
+  #rightContent .contentParagraph {
+    font-size: 1.5vw;
+  }
 }
-
-.desktopPicture {
-  background-image: url("desktopImage.jpg");
+@media (max-width: 1000px) {
+  #rightContent .contentParagraph {
+    font-size: 1.75vw;
+  }
+  #subpagesMain {
+    margin-top: 5%;
+  }
 }
-
-.virusPicture {
-  background-image: url("virusImage.jpg");
+@media (max-width: 870px) {
+  #rightContent .contentParagraph {
+    font-size: 1.9vw;
+  }
+  .contentHeader {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 870px) {
+  #subpagesMain {
+    height: 60vh;
+  }
+}
+@media (max-width: 760px) {
+  #rightContent .contentParagraph {
+    font-size: 2vw;
+  }
+}
+@media (max-width: 670px) {
+  #subpagesMain {
+    margin-top: 8%;
+  }
+  .contentHeader {
+    margin-bottom: 1vh;
+  }
+}
+@media (max-width: 560px) {
+  #subpagesMain {
+    margin-top: 10%;
+    margin-left: 0;
+    margin-right: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 70vh;
+  }
+  #leftPicture {
+    background-color: aliceblue;
+    display: grid;
+    width: 100%;
+    margin-top: 3%;
+  }
+  #rightContent {
+    display: grid;
+    width: 100%;
+  }
+  #rightContent .contentHeader {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  #rightContent .contentParagraph {
+    font-size: 2.8vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .buttons {
+    font-size: 2vw;
+    height: 8vw;
+    width: 12vh;
+  }
+}
+@media (max-width: 400px) {
+  #rightContent .contentParagraph {
+    font-size: 3vw;
+  }
+  .buttons {
+    font-size: 2.5vw;
+    height: 10vw;
+    width: 14vh;
+  }
 }/*# sourceMappingURL=subpages.css.map */
