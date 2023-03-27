@@ -48,7 +48,7 @@ $border-color: white;
         font-weight: bolder;
         width: 10rem;
         top: 10rem;
-        margin-top: 30px;
+        margin-top: 25%;
     }
 }
 
@@ -115,6 +115,11 @@ $border-color: white;
 
 h3{
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 1vh;
     font-weight: bolder;
+}
+
+#serviceParagraphs {
+    margin: auto;
+    width: 100%;
 }

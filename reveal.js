@@ -15,3 +15,4 @@ window.addEventListener("scroll", function() {
         document.getElementById("rightTwo").classList.add("hover");
     }
 });
+// This code adds a scroll event listener to the window, which adds the "hover" class to several elements when a specific section of the page is scrolled into view.
