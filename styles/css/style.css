@@ -448,160 +448,6 @@ h3 {
   font-size: 20px;
 }
 
-body {
-  background-color: white;
-}
-
-.image-container {
-  margin-top: -13vw;
-  width: 100%;
-  height: 53vw;
-  background-color: white;
-}
-.image-container .opening {
-  width: 27vw;
-  height: 26vw;
-  background-color: #161616;
-  color: white;
-  position: absolute;
-  margin-top: 27.2vw;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-.image-container .opening h4 {
-  font-size: 1vw;
-}
-.image-container .opening h3 {
-  font-size: 1.2vw;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-.image-container .opening h2 {
-  font-size: 2.5vw;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: lighter;
-}
-.image-container .opening .startInfo {
-  text-align: center;
-  font-weight: lighter;
-  margin-top: 5px;
-  margin-right: 0;
-  margin-bottom: 5px;
-  margin-left: 8%;
-}
-.image-container .opening .learn {
-  display: flex;
-  justify-content: center;
-}
-.image-container .opening span {
-  color: #1698DE;
-  font-weight: 800;
-}
-.image-container .rightTriangle {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-top: 26vw solid transparent;
-  border-left: 15vw solid #161616;
-  border-bottom: 0px solid transparent;
-  border-right: 0px solid transparent;
-  margin-top: 27.21vw;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 27vw;
-}
-
-.mainPc {
-  margin-left: 50%;
-  padding-top: 100px;
-}
-
-.black-right-triangle {
-  position: absolute;
-  border-top: 30vw solid transparent;
-  border-left: 15vw solid #161616;
-  border-bottom: 0px solid transparent;
-  border-right: 0px solid transparent;
-  margin-top: -30vw;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 35vw;
-}
-
-.black-left-triangle {
-  position: absolute;
-  border-top: 30vw solid transparent;
-  border-left: 0px solid transparent;
-  border-bottom: 0px solid transparent;
-  border-right: 15vw solid #161616;
-  margin-top: -30vw;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 50vw;
-}
-
-.black-space {
-  width: 35vw;
-  height: 30vw;
-  background-color: #161616;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  color: white;
-  justify-content: space-around;
-  justify-items: center;
-}
-.black-space p {
-  font-size: 1.6vw;
-  margin-left: 1vh;
-  margin-right: 1vh;
-}
-.black-space h2 {
-  font-size: 2vw;
-}
-
-.computer-repair, .laptop-repair, .virus-removal {
-  margin-left: 0vw;
-  width: 100vw;
-}
-
-.laptop-repair .black-space {
-  margin-left: 65vw;
-  margin-right: 0;
-}
-
-.computer-repair.hover, .laptop-repair.hover, .virus-removal.hover {
-  width: 0vw;
-  height: 30vw;
-  background-image: url("../../272328.d9fb89f56b4c295a5ef03fb9ec55641a.1600.jpg");
-}
-
-.buttons {
-  background: linear-gradient(to right, #1698DE, #5b58ff) padding-box, linear-gradient(to right, #1698DE, #5b58ff) border-box;
-  border-radius: 1em;
-  border: 5px solid transparent;
-  color: white;
-  font-weight: bold;
-  font-size: 2vw;
-  width: 20vw;
-  height: 5vw;
-  margin-left: 6vw;
-  margin-right: auto;
-  margin-top: 3vw;
-  margin-bottom: 3vw;
-}
-
-h2 {
-  font-size: 30px;
-  margin-top: 1vw;
-}
-
-#size {
-  width: 700px;
-  height: 750px;
-}
-
 #mainContainer {
   height: 50vw;
   display: flex;
@@ -635,11 +481,11 @@ h2 {
   border: none;
   font-size: medium;
   width: 18.6vw;
-  height: 5vh;
+  height: 6vh;
 }
 #mainContainer #supportBox .descInput {
   width: 40vw;
-  height: 10vw;
+  height: 20vh;
   color: #2B2B2B;
   font-weight: bolder;
   background-color: #D9D9D9;
@@ -647,6 +493,7 @@ h2 {
   font-family: "Trebuchet MS";
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
 }
 #mainContainer #supportBox ::placeholder {
   color: #2B2B2B;
@@ -656,28 +503,27 @@ h2 {
   width: 25vw;
   height: 5vh;
   background-color: #7800C6;
-  color: white;
   border: none;
   font-family: "Trebuchet MS";
   font-size: medium;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
+  margin-bottom: 2.5%;
   margin-top: 5%;
-  background: linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) padding-box, linear-gradient(to right, rgb(214, 14, 225), rgb(98, 14, 141)) border-box;
+  background: linear-gradient(to right, #1698de, #5b58ff) padding-box, linear-gradient(to right, #1698de, #5b58ff) border-box;
   border: 5px solid transparent;
   font-size: 20px;
   border-radius: 1em;
+  color: white;
 }
-#mainContainer #supportBox #googleMap {
-  width: 30vw;
-  height: 20vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-body {
-  padding-top: 15%;
+#mainContainer #supportBox #map-responsive {
+  overflow: hidden;
+  position: relative;
+  height: 40%;
+  margin: auto;
+  background-color: #D9D9D9;
+  width: 80%;
+  margin-bottom: 3.5%;
 }
 
 * {
