@@ -120,4 +120,7 @@ nav .dropbtn:focus {
   nav .show {
     display: block;
   }
+  nav .logo {
+    width: 50vw;
+  }
 }/*# sourceMappingURL=nav.css.map */
