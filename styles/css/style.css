@@ -770,6 +770,7 @@ h2 {
   height: 40vw;
   display: flex;
   margin: 0 5vw 5vw 5vw;
+  box-shadow: 0px 0px 20px #1698de;
 }
 
 #leftPicture {
@@ -856,8 +857,8 @@ h2 {
     height: 70vh;
   }
   #leftPicture {
-    background-color: aliceblue;
     display: grid;
+    background-image: url(../../../FO7bXEwX0AM1hjB.jfif);
     width: 100%;
     margin-top: 3%;
   }
@@ -898,6 +899,10 @@ h2 {
   padding-left: 10vh;
   padding-right: 10vh;
   border-radius: 5em;
+}
+
+.desktopPicture {
+  background-image: url(../../../FO7bXEwX0AM1hjB.jfif);
 }
 
 html {
